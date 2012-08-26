@@ -1,0 +1,17 @@
+name: MTRadioWaves
+main: me.wickersty.mortuusterra.radiowaves.MTRadioWaves
+version: 3.01
+author: wickersty
+depends: [MortuusTerra,Vault]
+softdepend: [MultiVerse,Multiverse-Core,My Worlds]
+database: false
+description: >
+             A module for the Mortuus Terra plugin.
+             Provides walkie talkies, cellular phones, and radio broadcast towers
+             This module DOES require Mortuus Terra.
+commands:
+  mtr:
+    description: The core MTRadioWaves command.
+    aliases: 
+    permission:
+    usage: /mtr help

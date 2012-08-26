@@ -1,0 +1,22 @@
+# --------------------------------------------- #
+#                                               #
+# MTRadioWaves                                  #
+#                                               #
+# --------------------------------------------- #
+
+settings:
+  worlds:
+    enabled: world,world2
+  devices:
+    radio-broadcasting-towers:
+      enabled: true
+      range: 200
+    walkie-talkies:
+      enabled: true
+      item-id: 371
+    cellular-phones:
+      enabled: true
+      item-id: 370
+    handheld-radios:
+      enabled: true
+      item-id: 345
