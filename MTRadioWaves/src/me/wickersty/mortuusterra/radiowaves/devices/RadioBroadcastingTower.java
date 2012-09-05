@@ -198,10 +198,10 @@ public class RadioBroadcastingTower {
 	
 	public void assignBlocks() {
 		
-		instance.getLogger().info(lever.getRelative(BlockFace.NORTH).toString());
-		instance.getLogger().info(lever.getRelative(BlockFace.SOUTH).toString());
-		instance.getLogger().info(lever.getRelative(BlockFace.EAST).toString());
-		instance.getLogger().info(lever.getRelative(BlockFace.WEST).toString());
+		// instance.getLogger().info(lever.getRelative(BlockFace.NORTH).toString());
+		// instance.getLogger().info(lever.getRelative(BlockFace.SOUTH).toString());
+		// instance.getLogger().info(lever.getRelative(BlockFace.EAST).toString());
+		// instance.getLogger().info(lever.getRelative(BlockFace.WEST).toString());
 		
 		// determine which way we are facing
 		if (lever.getRelative(BlockFace.NORTH).getType().equals(Material.REDSTONE_LAMP_OFF)) {
